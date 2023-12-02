@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+#timer{
+    float:right;
+}
+h1{
+    background-color: beige;
+}
+
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+    float:center;
+    margin-right:200px;
+}
+
+@keyframes example{
+    from{box-shadow:1px 1px 38px grey;}
+    to{box-shadow:1px 1px 38px white;}
+}
+
+
+
